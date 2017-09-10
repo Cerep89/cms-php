@@ -1,4 +1,8 @@
 <!--Include php header-->
+<?php
+include 'includes/header.php';
+?>
+
     <!-- Page Content -->
     <div class="container">
 
@@ -137,3 +141,5 @@
         <hr>
 
 <!--Include php footer-->
+<?php
+include 'includes/footer.php';
