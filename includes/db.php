@@ -8,11 +8,11 @@ foreach ($db as $key=>$value){
     define(strtoupper($key), $value);
 }
 
-$conection = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_DATABASE);
+$connection = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_DATABASE);
 
 //verificarea connectarii cu db
-if ($conection){
+/*if ($connection){
     echo "Ura sa conectat";
 }else{
     echo "nu a mers";
-}
+}*/
